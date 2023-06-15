@@ -1,0 +1,121 @@
+html,
+body {
+    margin: 0;
+    font-family: "Kanit", sans-serif;
+    background-color: #2b2d42;
+    color: #edf2f4;
+}
+
+.header-text {
+    background-image: url("./images/searchflix.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text h1 {
+    font-size: 3rem;
+}
+
+h1,
+p,
+h3 {
+    margin: 0;
+}
+
+button {
+    border: none;
+    background: none;
+    color: #edf2f4;
+    cursor: pointer;
+}
+
+header button {
+    font-size: 1.2rem;
+}
+
+.input-area {
+    height: 30px;
+    position: relative;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.movie-name {
+    background-color: #161a1d;
+    color: #edf2f4;
+    border: none;
+}
+
+.search-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.search-area input {
+    font-family: "Kanit", sans-serif;
+    height: 20px;
+    width: 50vw;
+    padding: 5px;
+}
+
+.search-area button {
+    font-family: "Kanit", sans-serif;
+    background-color: #ef233c;
+}
+
+.welcome-msg {
+    margin-top: 10em;
+    text-align: center;
+    color: #161a1d;
+}
+
+.fa-film {
+    font-size: 5rem;
+}
+
+.movies .movie-single:not(:last-child) {
+    border-bottom: 3px solid #ef233c;
+}
+
+.watchlist .movie-single:not(:last-child) {
+    border-bottom: 3px solid #ef233c;
+}
+
+.movie-single {
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 500px;
+    height: 200px;
+    display: flex;
+    gap: 10px;
+}
+
+.movie-info {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.movie-info-2 {
+    display: flex;
+    gap: 5px;
+    font-weight: lighter;
+}
+
+.movie-info p {
+    font-weight: lighter;
+    overflow: auto;
+}
+
+.movie-poster {
+    max-width: 120px;
+}
