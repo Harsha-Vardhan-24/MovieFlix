@@ -21,6 +21,12 @@
             href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap"
             rel="stylesheet"
         />
+        <link
+            type="image/png"
+            sizes="32x32"
+            rel="icon"
+            href="./images/web-favicon.png"
+        />
         <link rel="stylesheet" href="./index.css" />
         <title>MovieFlix</title>
     </head>
@@ -32,20 +38,18 @@
                     ><button id="watchlist-btn">My watchlist</button></a
                 >
             </div>
-            <!-- <div>
-                <input class="input-area" type="text" />
-                <button>Search</button>
-            </div> -->
+            <div class="search-area">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input
+                    class="movie-name"
+                    placeholder="John Wick? hmm"
+                    type="text"
+                    id="movie-name"
+                />
+                <button id="search-btn">Search</button>
+            </div>
         </header>
-        <div class="search-area">
-            <input
-                class="movie-name"
-                placeholder="John Wick? hmm"
-                type="text"
-                id="movie-name"
-            />
-            <button id="search-btn">Search</button>
-        </div>
+
         <section>
             <div id="welcome-msg" class="welcome-msg">
                 <i class="fa fa-film" aria-hidden="true"></i>

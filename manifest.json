@@ -1,0 +1,36 @@
+{
+    "name": "Search Flix",
+    "short_name": "Search Flix",
+    "icons": [
+        {
+            "src": "./images/icons/icons8-netflix-color-hand-drawn-72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "density": "1.5"
+        },
+        {
+            "src": "./images/icons/icons8-netflix-color-hand-drawn-96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "density": "2.0"
+        },
+        {
+            "src": "./images/icons/icons8-netflix-color-hand-drawn-144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "density": "3.0"
+        },
+        {
+            "src": "./images/icons/icons8-netflix-color-hand-drawn-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "density": "4.0"
+        },
+        {
+            "src": "./images/icons/icons8-netflix-color-hand-drawn-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "display": "standalone"
+}
