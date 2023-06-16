@@ -55,6 +55,5 @@ document.addEventListener("click", (e) => {
     if (e.target.id === "add-favourite") {
         savedMovies.push(e.target.dataset.movieId);
         localStorage.setItem("movies", JSON.stringify(savedMovies));
-        console.log(JSON.parse(localStorage.getItem("movies")));
     }
 });
