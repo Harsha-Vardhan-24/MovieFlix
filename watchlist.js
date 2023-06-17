@@ -49,6 +49,7 @@ async function renderWatchList() {
 
 document.addEventListener("click", (e) => {
     if (e.target.id === "remove-favourite") {
+        e.target.classList.add("toggle");
         const clickedMovie = e.target.dataset.movieId;
         const moviesData = JSON.parse(localStorage.getItem("movies"));
 
